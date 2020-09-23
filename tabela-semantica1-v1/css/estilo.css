@@ -1,5 +1,58 @@
-body{
-    background-color: blue;
-    color: darkcyan;
+body {
+    background-color: whitesmoke;
+    color: green;
  }
+  
+ h1,h2 {
+    text-align: center;
+ }
+  
+ .sublinhado {
+    text-decoration: greenyellow;
+ }
+  
+ table {
+    border: 3px ridge orange;
+    margin: 0 auto;
+ }
+  
+ th,td {
+    border: 1px solid red;
+ }
+
+ body {
+    background-color: antiquewhite;
+    color: brown;
+ }
+  
+ h1,h2 {
+    text-align: center;
+ }
+  
+ .sublinhado {
+    text-decoration:darkred underline;
+ }
+  
+ table {
+    border: 3px ridge orange;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 640px;
+    text-align: center;
+ }
+  
+ tr:nth-child(even){/*Linhas pares*/
+    background-color: cornsilk;
+ }
+  
+ tr:hover {
+    background-color: darkkhaki;
+ }
+  
+ th,td {
+    border: 1px solid gray;
+    padding: 20px;
+ }
+ 
+ 
  

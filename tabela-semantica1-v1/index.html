@@ -1,92 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tabela com tags Semânticas</title>
+   <link rel="stylesheet" href="./css/estilo.css">
+</head>
 <body>
-<h1>Tabela</h1>
+   <h1>Tabela</h1>
    <h2>
        Tags
        <span class="sublinhado">semânticas</span>
        HTML para tabelas
    </h2>
    <table>
-       <caption>Verdureira do TNX</caption><!--Legenda-->
-       <thead><!--Cabeçalho da tabela-->
-           <tr><!--Fileira-->
-               <th>🍉 🍇 🍓Tudo Fresquinho para você🍒 🍑 🥭</th><!--Coluna 1-->
-               <th></th><!--Coluna 2-->
-               <th></th><!--Coluna 3-->
-               <th></th><!--Coluna 4-->
-           </tr>
-           <tr><!--table Row - fileira -->
-               <th></th><!--Coluna 1-->
-               <th>Foto</th><!--Coluna 2-->
-               <th>Nome</th><!--Coluna 3-->
-               <th>Preço</th><!--Coluna 4-->
-           </tr>
-       </thead><!--Fim do cabeçalho da tabela-->
-       <tbody><!--Corpo da tabela-->
+    <table>
+        <caption>Verdureira do TNX</caption><!--Legenda-->
+        <thead><!--Cabeçalho da tabela-->
+            <tr><!--Fileira-->
+                <th colspan="4">🍉 🍇 🍓Tudo Fresquinho para você🍒 🍑 🥭</th><!--Coluna 1-->
+            </tr>
+            <tr><!--table Row - fileira -->
+                <th></th><!--Coluna 1-->
+                <th>Foto</th><!--Coluna 2-->
+                <th>Nome</th><!--Coluna 3-->
+                <th>Preço</th><!--Coluna 4-->
+            </tr>
+        </thead><!--Fim do cabeçalho da tabela-->
+  
+        <tbody><!--Corpo 1 Frutas da tabela-->
+            <tr><!--1ª Fileira-->
+                <td rowspan="3">Frutas</td><!--Coluna 1-->
+                <td><img src="./images/morango.png" alt="Morango"
+                    height="64" width="64" class="icone"></td><!--Coluna 2-->
+                <td>Morango</td><!--Coluna 3-->
+                <td>R$ 5,00</td><!--Coluna 4-->
+            </tr>
+            <tr><!--2ª Fileira-->
+               
+                <td><img src="./images/pitaya.png" alt="Pitaya"
+                    height="64" width="64" class="icone"></td><!--Coluna 2-->
+                <td>Pitaya</td><!--Coluna 3-->
+                <td>R$ 17,00</td><!--Coluna 4-->
+            </tr>
+            <tr><!--3ª Fileira-->
+               
+                <td><img src="./images/acai.png" alt="Açaí"
+                    height="64" width="64" class="icone"></td><!--Coluna 2-->
+                <td>Açaí</td><!--Coluna 3-->
+                <td>R$ 8,00</td><!--Coluna 4-->
+            </tr>
+        </tbody><!-- Fim do corpo 1  da tabela-->
+  
+        <tbody><!--Corpo 2 Legumes da Tabela-->
+            <tr>
+                <td rowspan="3">Legumes</td><!--1ª Coluna-->
+                <td><img src="./images/aipim.png" alt="Mandioca ou Aipim"
+                    height="64" width="64" class="icone"></td><!--2ª Coluna-->
+                <td>Mandioca ou Aipim</td><!--3ª Coluna-->
+                <td>R$ 3,75</td><!--4ª Coluna-->
+            </tr><!--1ª Fileira-->
+            <tr>
+               
+                <td><img src="./images/cenoura.png" alt="Cenoura"
+                    height="64" width="64" class="icone"></td><!--2ª Coluna-->
+                <td>Cenoura</td><!--3ª Coluna-->
+                <td>R$ 1,65</td><!--4ª Coluna-->
+            </tr><!--2ª Fileira-->
+            <tr>
+               
+                <td><img src="./images/batata.png" alt="Batata"
+                    height="64" width="64" class="icone"></td><!--2ª Coluna-->
+                <td>Batata</td><!--3ª Coluna-->
+                <td>R$ 3,50</td><!--4ª Coluna-->
+            </tr><!--3ª Fileira-->
+        </tbody>
+  
+        <tbody><!-- Corpo 3 Cereais-->
+            <tr>
+                <td rowspan="3">Cereais</td><!--1ª Coluna-->
+                <td><img src="./images/milho.png" alt="Milho"
+                    height="64" width="64" class="icone"></td><!--2ª Coluna-->
+                <td>Milho</td><!--3ª Coluna-->
+                <td>R$ 1,75</td><!--4ª Coluna-->
+            </tr><!--1ª Fileira-->
+            <tr>
+               
+                <td><img src="./images/arroz.png" alt="Arroz"
+                    height="64" width="64" class="icone"></td><!--2ª Coluna-->
+                <td>Arroz</td><!--3ª Coluna-->
+                <td>R$ 25,00</td><!--4ª Coluna-->
+            </tr><!--2ª Fileira-->
+            <tr>
+               
+                <td><img src="./images/trigo.png" alt="Trigo"
+                    height="64" width="64" class="icone"></td><!--2ª Coluna-->
+                <td>Trigo</td><!--3ª Coluna-->
+                <td>R$ 4,50</td><!--4ª Coluna-->
+            </tr><!--3ª Fileira-->
+        </tbody>
+  
+        <tfoot><!--Rodapé da Tabela-->
+            <tr><!--Row - Fileira ou Linha-->
+                <th colspan="4"><!--Uma coluna que valem 4-->
+                    Faça o seu pedido
+                </th>
+            </tr>
+        </tfoot>
+  
+    </table>
  
-
-        <table> 
-       </tbody><!-- Fim do corpo da tabela-->
    </table>
-
-   <tbody><!--Corpo 1 Frutas da tabela-->
-    <tr><!--1ª Linha-->
-        <td></td><!--Coluna 1-->
-        <td></td><!--Coluna 2-->
-        <td></td><!--Coluna 3-->
-        <td></td><!--Coluna 4-->
-    </tr>
-    <tr><!--2ª Linha-->
-        <td></td><!--Coluna 1-->
-        <td></td><!--Coluna 2-->
-        <td></td><!--Coluna 3-->
-        <td></td><!--Coluna 4-->
-    </tr>
-    <tr><!--3ª Linha-->
-        <td></td><!--Coluna 1-->
-        <td></td><!--Coluna 2-->
-        <td></td><!--Coluna 3-->
-        <td></td><!--Coluna 4-->
-    </tr>
-</tbody><!-- Fim do corpo 1  da tabela-->
-</thead>
-
-<tbody><!--Corpo 1 Frutas da tabela-->
-    <tr><!--1ª Linha-->
-        <td>Frutas</td><!--Coluna 1-->
-        <td><img src="./images/morango.png" alt="Morango"
-            height="64" width="64" class="icone"></td><!--Coluna 2-->
-        <td>Morango</td><!--Coluna 3-->
-        <td>R$ 5,00</td><!--Coluna 4-->
-    </tr>
-    <tr><!--2ª Linha-->
-        <td></td><!--Coluna 1-->
-        <td><img src="./images/pitaya.png" alt="Pitaya"
-            height="64" width="64" class="icone"></td><!--Coluna 2-->
-        <td>Pitaya</td><!--Coluna 3-->
-
-        <td>R$ 17,00</td><!--Coluna 4-->
-    </tr>
-    <tr><!--3ª Linha-->
-        <td></td><!--Coluna 1-->
-        <td><img src="./images/acai.png" alt="Açaí"
-            height="64" width="64" class="icone"></td><!--Coluna 2-->
-        <td>Açaí</td><!--Coluna 3-->
-        <td>R$ 8,00</td><!--Coluna 4-->
-    </tr>
-</tbody><!-- Fim do corpo 1  da tabela-->
-
-<tbody><!--Corpo 2 Legumes da Tabela-->
  
-</tbody>
-
-<tbody><!-- Corpo 3 Cereais-->
-
-</tbody>
-
-<tfoot><!--Rodapé da Tabela-->
-    <tr><!--Row - Fileira ou Linha-->
-        <th colspan="4"><!--Uma coluna que valem 4-->
-            Faça o seu pedido
-        </th>
-    </tr>
-</tfoot>
+  
+</body>
+</html>
